@@ -1,13 +1,13 @@
-import React from 'react'
-import '../styles/App.css';
-const App = () => {
+import {FormVal} from './FormVal.jsx';
 
 
+
+function App() {
   return (
-    <div id="main">
+    <div className="App">
+     <FormVal/>
     </div>
-  )
+  );
 }
-
 
 export default App;
